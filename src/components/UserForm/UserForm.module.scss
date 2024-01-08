@@ -1,0 +1,52 @@
+.formContainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+
+  @media screen and (max-width: 800px) {
+    flex-direction: column;
+    gap: 8px;
+  }
+
+  &__input {
+    border-radius: 37.5px 0 0 37.5px;
+    border: 1px solid #000;
+    background-color: #fff;
+    box-shadow: 4px 4px 0px 0px #000;
+    padding: 12px 27px;
+    color: #444;
+    font-size: 16px;
+    font-weight: 400;
+    text-align: center;
+
+    &::placeholder {
+      color: rgba(0, 0, 0, 0.3);
+    }
+
+    @media screen and (max-width: 800px) {
+      border-radius: 37.5px;
+      box-shadow: 2px 2px 4px 0px rgba(0, 0, 0, 0.2);
+      margin: 0 16px;
+      padding: 12px 0;
+      font-size: 14px;
+    }
+  }
+
+  &__btn {
+    border-radius: 0 37.5px 37.5px 0;
+    border: 1px solid #000;
+    background: #c4c4c4;
+    box-shadow: 4px 4px 0px 0px #000;
+    color: #444;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 400;
+    padding: 12px 27px;
+
+    @media screen and (max-width: 800px) {
+      border-radius: 37.5px;
+      box-shadow: 2px 2px 0px 0px #000;
+    }
+  }
+}

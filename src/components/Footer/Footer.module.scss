@@ -1,0 +1,25 @@
+.footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+
+  @media screen and (max-width: 800px) {
+    flex-direction: column;
+    gap: 24px;
+  }
+
+  &__btn {
+    border: 2px solid #000;
+    background: #fe652b;
+    box-shadow: 4px 4px 0px 0px #000;
+    color: #fff;
+    font-size: 20px;
+    font-weight: 600;
+    padding: 18px 40px;
+    border-radius: 37.5px;
+    display: flex;
+    align-items: center;
+    gap: 26px;
+  }
+}

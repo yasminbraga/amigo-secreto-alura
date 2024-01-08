@@ -1,0 +1,53 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`config page must be right rendered 1`] = `
+<div>
+  <div
+    class="card"
+  >
+    <h3
+      class="card__title"
+    >
+      Vamos começar!
+    </h3>
+    <form
+      class="formContainer"
+    >
+      <input
+        class="formContainer__input"
+        placeholder="Insira os nomes dos participantes"
+        type="text"
+        value=""
+      />
+      <button
+        class="formContainer__btn"
+        disabled=""
+      >
+        Adicionar
+      </button>
+      
+    </form>
+    <ul
+      class="list"
+    />
+    <footer
+      class="footer"
+    >
+      <button
+        class="footer__btn"
+        disabled=""
+      >
+        <img
+          alt="play icon"
+          src="play.png"
+        />
+        Iniciar brincadeira!
+      </button>
+      <img
+        alt="sacolas de compras"
+        src="sacolas.png"
+      />
+    </footer>
+  </div>
+</div>
+`;
